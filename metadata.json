@@ -1,0 +1,6 @@
+{
+  "name": "Video Chat with Coins",
+  "description": "A random web-based video chat application featuring real-time matchmaking, live WebRTC video and audio streams, interactive text chat, and a coin-based premium economy with virtual gifting.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
