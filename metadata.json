@@ -1,22 +1,52 @@
 {
   "name": "Video Chat with Coins",
   "version": "1.0.0",
-  "description": "A random web-based video chat application featuring real-time matchmaking, live WebRTC video and audio streams, interactive text chat, and a coin-based premium economy with virtual gifts, tipping, and premium matching options.",
+  "description": "A web-based random video chat with real-time WebRTC audio/video, text chat, matchmaking, and a coin-based premium economy for tipping, virtual gifts, and premium match options. Designed for low-latency peer connections with optional TURN support and session management.",
   "requestFramePermissions": ["camera", "microphone"],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"],
   "repository": "https://github.com/pkpkrahul-lang/Global-video-chat-",
   "author": "pkpkrahul-lang",
+  "maintainers": [
+    {
+      "name": "pkpkrahul-lang",
+      "email": "pkpkrahul@gmail.com",
+      "url": "https://github.com/pkpkrahul-lang"
+    }
+  ],
   "license": "MIT",
   "homepage": "https://example.com",
   "supportUrl": "https://github.com/pkpkrahul-lang/Global-video-chat-/issues",
+  "contactEmail": "support@example.com",
+  "termsOfServiceUrl": "https://example.com/terms",
   "privacyPolicyUrl": "https://example.com/privacy",
   "defaultLocale": "en",
-  "keywords": ["video", "webrtc", "chat", "matchmaking", "realtime", "coins", "streaming"],
+  "locales": ["en", "hi"],
+  "keywords": ["video", "webrtc", "chat", "matchmaking", "realtime", "coins", "streaming", "social"],
   "categories": ["communication", "social"],
   "icons": {
     "32": "icons/icon-32.png",
     "128": "icons/icon-128.png"
   },
-  "screenshots": [],
-  "contentRating": "Everyone"
+  "screenshots": [
+    "screenshots/room-1.png",
+    "screenshots/chat-1.png"
+  ],
+  "contentRating": "Teen",
+  "permissions": {
+    "usesCamera": true,
+    "usesMicrophone": true,
+    "storesPersonalData": ["audio", "video", "displayName", "email (optional)"]
+  },
+  "dataUsage": {
+    "storage": "Ephemeral by default; optional recordings stored in configured object storage (S3/GCS) with consent",
+    "thirdParties": ["TURN provider (if configured)", "Analytics/Sentry (optional)", "Gemini AI (server-side)"]
+  },
+  "features": {
+    "matchmaking": true,
+    "coinsEconomy": true,
+    "recordingOptional": false,
+    "screenShare": true,
+    "textChat": true
+  },
+  "notes": "Replace example URLs and contact emails with real values. Ensure privacyPolicyUrl and termsOfServiceUrl are set before publishing. Use secret manager for runtime credentials."
 }
