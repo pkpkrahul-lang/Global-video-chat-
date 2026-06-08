@@ -1,6 +1,22 @@
 {
   "name": "Video Chat with Coins",
-  "description": "A random web-based video chat application featuring real-time matchmaking, live WebRTC video and audio streams, interactive text chat, and a coin-based premium economy with virtual gifting.",
+  "version": "1.0.0",
+  "description": "A random web-based video chat application featuring real-time matchmaking, live WebRTC video and audio streams, interactive text chat, and a coin-based premium economy with virtual gifts, tipping, and premium matching options.",
   "requestFramePermissions": ["camera", "microphone"],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"],
+  "repository": "https://github.com/pkpkrahul-lang/Global-video-chat-",
+  "author": "pkpkrahul-lang",
+  "license": "MIT",
+  "homepage": "https://example.com",
+  "supportUrl": "https://github.com/pkpkrahul-lang/Global-video-chat-/issues",
+  "privacyPolicyUrl": "https://example.com/privacy",
+  "defaultLocale": "en",
+  "keywords": ["video", "webrtc", "chat", "matchmaking", "realtime", "coins", "streaming"],
+  "categories": ["communication", "social"],
+  "icons": {
+    "32": "icons/icon-32.png",
+    "128": "icons/icon-128.png"
+  },
+  "screenshots": [],
+  "contentRating": "Everyone"
 }
